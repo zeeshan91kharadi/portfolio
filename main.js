@@ -1,12 +1,3 @@
-var typed = new Typed(".text",{
-    strings:["Frontend Developer", "Software Developer", "Web Developer"],
-    typeSpeed : 10,
-    backSpeed : 100,
-    backDelay : 1000,
-    loop : true
-});
-
-
 const form = document.querySelector("form");
 const fullname = document.getElementById("name");
 const email = document.getElementById("email");
@@ -30,3 +21,13 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   sendEmail();
 })
+
+var typed = new Typed(".text",{
+    strings:["Frontend Developer", "Software Developer", "Web Developer"],
+    typeSpeed : 10,
+    backSpeed : 100,
+    backDelay : 1000,
+    loop : true
+});
+
+
